@@ -1,0 +1,18 @@
+a.out:   main.o create.o print.o delete.o find.o edit.o save.o sync_file.o
+        cc main.o create.o print.o delete.o find.o edit.o save.o sync_file.o
+main.o:main.c
+        cc -c main.c
+create.o:create.c
+        cc -c create.c
+print.o:print.c
+        cc -c print.c
+delete.o:delete.c
+        cc -c delete.c
+find.o:find.c
+        cc -c find.c
+edit.o:edit.c
+        cc -c edit.c
+save.o:save.c
+        cc -c save.c
+sync_file.o:sync_file.c
+    cc -c sync_file.c
